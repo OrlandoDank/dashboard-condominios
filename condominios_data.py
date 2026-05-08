@@ -3,7 +3,7 @@ import pandas as pd
 
 PLANILHA_COND = Path(__file__).parent / "condominios.xlsx"
 PLANILHA_END  = Path(__file__).parent / "Endereços.xlsx"
-PLANILHA_ABC  = Path(__file__).parent / "curva ABC quantidade.xlsx"
+PLANILHA_ABC  = Path(__file__).parent / "Curva ABC quantidade.xlsx"
 
 
 def carregar_curva_abc() -> pd.DataFrame:
